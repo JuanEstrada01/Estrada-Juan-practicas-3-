@@ -20,9 +20,11 @@
      - Nombre (UQ)
      - Direccion (FK)
   - Empleado:
-    - Id del vendedor 
+    - Id del vendedor (PK)
     - Nombre (UQ)
     - Apellido (UQ)
+    - Puesto
+    - Correo
      
      ## Relaciones
      - El probedor suministra producto (M - M)
