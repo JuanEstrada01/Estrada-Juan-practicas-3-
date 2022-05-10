@@ -16,7 +16,7 @@
   - Direccion(FK)
   - Telefono (FK)
  - Provedores:
-     - Id del provedor 
+     - Id del provedor (UQ)
      - Nombre (UQ)
      - Direccion (FK)
   - Empleado:
@@ -24,8 +24,8 @@
     - Nombre (UQ)
     - Apellido (UQ)
     - Puesto
-    - Correo
-     
+    - Correo (UQ)
+
      ## Relaciones
      - El probedor suministra producto (M - M)
      - El cliente compra el producto (M - M)
