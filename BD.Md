@@ -3,6 +3,7 @@
 - Producto 
 - Clientes 
 - Provedor 
+- Vendedor
 ## Atributos 
 - Producto: 
   - Id del producto (PK)
@@ -16,10 +17,16 @@
   - Telefono (FK)
  - Provedores:
      - Id del provedor 
-     - Nombre (UQ )
+     - Nombre (UQ)
      - Direccion (FK)
+  - Empleado:
+    - Id del vendedor 
+    - Nombre (UQ)
+    - Apellido (UQ)
+     
      ## Relaciones
      - El probedor suministra producto (M - M)
      - El cliente compra el producto (M - M)
+     - El empelado le vende el producto al cliente (1 - M)
 
 
