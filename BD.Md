@@ -20,7 +20,7 @@
      - Nombre (UQ)
      - Direccion (FK)
   - Empleado:
-    - Id del vendedor (PK)
+    - Id del vendedor 
     - Nombre (UQ)
     - Apellido (UQ)
     - Puesto
