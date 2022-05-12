@@ -2,7 +2,7 @@
 ## Entidades 
 - Producto 
 - Clientes 
-- Provedor 
+- Proveedor 
 - Vendedor
 ## Atributos 
 - Producto: 
@@ -15,7 +15,7 @@
   - Id del cliente (UQ)
   - Direccion(FK)
   - Telefono (FK)
- - Provedores:
+ - Proveedores:
      - Id del provedor (UQ)
      - Nombre (UQ)
      - Direccion (FK)
@@ -27,7 +27,7 @@
     - Correo (UQ)
 
      ## Relaciones
-     - El probedor suministra producto (M - M)
+     - El proveedor suministra producto (M - M)
      - El cliente compra el producto (M - M)
      - El empelado le vende el producto al cliente (1 - M)
 
