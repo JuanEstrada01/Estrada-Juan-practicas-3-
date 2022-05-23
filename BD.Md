@@ -2,7 +2,8 @@
 ## Entidades 
 - Producto 
 - Clientes 
-- Provedor 
+- Proveedor 
+- Vendedor
 ## Atributos 
 - Producto: 
   - Id del producto (PK)
@@ -14,14 +15,22 @@
   - Id del cliente (UQ)
   - Direccion(FK)
   - Telefono (FK)
- - Provedores:
-     - Id del provedor 
-     - Nombre (UQ )
+ - Proveedores:
+     - Id del provedor (UQ)
+     - Nombre (UQ)
      - Direccion (FK)
+  - Empleado:
+    - Id del vendedor 
+    - Nombre (UQ)
+    - Apellido (UQ)
+    - Puesto
+    - Correo (UQ)
+
      ## Relaciones
-     - El probedor suministra producto (M - M)
+     - El proveedor suministra producto (M - M)
      - El cliente compra el producto (M - M)
-# Diagrama 
+      - El empelado le vende el producto al cliente (1 - M)
+# Diagrama
 ![Image text](/Img/diagrama.png)
 
 
