@@ -21,5 +21,7 @@
      ## Relaciones
      - El probedor suministra producto (M - M)
      - El cliente compra el producto (M - M)
+# Diagrama 
+![Image text](/Img/diagrama.png)
 
 
