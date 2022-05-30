@@ -1,4 +1,5 @@
 CREATE DATABASE IF NOT EXISTS Tienda;
+USE Tienda;
 CREATE TABLE Cliente{
     status_id VARCHAR(50)NOT NULL PRIMARY KEY,
     status_name VARCHAR(50) NOT NULL,
